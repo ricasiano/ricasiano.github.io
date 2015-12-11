@@ -53,7 +53,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand maintitle" href="#page-top">razorgank.com</a>
+                <a class="navbar-brand maintitle" href="#page-top">bitglip.com</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
