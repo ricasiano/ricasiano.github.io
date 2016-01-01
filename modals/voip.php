@@ -12,7 +12,7 @@
                     <div class="modal-body">
                         <h2>VOIP</h2>
                         <hr class="star-primary">
-                        <img src="img/services-voip.jpg" class="img-responsive img-centered" alt="">
+                        <img src="dist/services-voip.jpg" class="img-responsive img-centered" alt="">
                         <p>Do you want to build a center... where people can make calls?</p>
                         <ul class="list-inline item-details">
                             <li>Skills:

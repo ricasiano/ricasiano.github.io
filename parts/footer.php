@@ -14,7 +14,7 @@
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         <li>
-                            <a href="http://facebook.com/rockerprog" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a href="http://facebook.com/bitglip" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
                         </li>
                         <li>
                             <a href="http://instagram.com/bitglip" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
@@ -33,8 +33,7 @@
                 <div class="footer-col col-md-4">
                     <h3>Contact Info</h3>
                     <p>
-                        Server Owner: Rai Icasiano<br />
-                        Contact: <a href="#">ricasiano</a> at <a href="#">gmail</a> dot <a href="#">com</a></p>
+                        Contact: <b>inquire</b> at <b>bitglip</b> dot <b>com</b></p>
                 </div>
             </div>
         </div>
@@ -42,8 +41,10 @@
     <div class="footer-below">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    Copyleft &copy; Come One, Come All, Into 1984
+                <div class="col-lg-12 copyright">
+                    &copy; <?php echo date('Y'); ?> All rights reserved.
+                    Image compression provided by <i class="fa fa-pied-piper"></i> <a href="http://www.piedpiper.com/" target="_blank">Pied Piper&reg;</a>.
+                            More fun? Click <a href="linuxterminal" target="_blank">here</a>.
                 </div>
             </div>
         </div>

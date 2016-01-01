@@ -193,7 +193,7 @@ section.myservices {
 section.aboutme {
    background: #000;
    color: #ccc;
-   background-image: url('../img/about-back.jpg');
+   background-image: url('../dist/about-back.jpg');
    background-repeat: no-repeat;
    background-size: 100%;
 }
@@ -267,7 +267,7 @@ section.aboutme {
 
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #ccc;
     font-size: 20px;
     color: #aaa;
     background: 0 0;
@@ -420,7 +420,7 @@ footer .footer-below {
 }
 
 .portfolio-modal .modal-content .item-details {
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 .portfolio-modal .close-modal {
@@ -439,7 +439,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 2px;
     height: 75px;
     margin-left: 35px;
     background-color: #2c3e50;
@@ -450,7 +450,7 @@ footer .footer-below {
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 2px;
     height: 75px;
     background-color: #2c3e50;
     -webkit-transform: rotate(90deg);
@@ -459,6 +459,22 @@ footer .footer-below {
 }
 .warning {
     color: red;
-    font-size: 9px;
+    font-size: 10px;
     font-family: Verdana,Arial,"Sans Serif";
+}
+.splash-text {
+    font-size: 28px;
+}
+.modal-detail{
+    color: #18bc9c;
+    font-weight: bold;
+}
+.copyright {
+    font-size: 10px;
+}
+.caption-content {
+    text-align: center;
+}
+.breaker {
+    clear: both;
 }

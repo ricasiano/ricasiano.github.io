@@ -1,3 +1,4 @@
+<?php require('config/default.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,10 +7,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="<?php echo META_DESCRIPTION; ?>">
+    <meta name="author" content="<?php echo META_AUTHOR; ?>">
+    <meta name="keywords" content="<?php echo META_KEYWORDS; ?>">
 
-    <title>bitglip.com - Your Startup Solution</title>
+    <title><?php echo META_TITLE; ?></title>
 
     <?php require('assets/css.php'); ?>
 
@@ -33,9 +35,9 @@
 
     <?php require('modals/webdev.php'); ?>
 
-    <?php require('modals/websec.php'); ?>
+    <?php require('modals/api.php'); ?>
 
-    <?php require('modals/voip.php'); ?>
+    <?php require('modals/sms.php'); ?>
 
     <?php require('modals/hosting.php'); ?>
 

@@ -59,7 +59,6 @@ ____________&nbsp;&nbsp;___________________&nbsp;&nbsp;_________&nbsp;&nbsp;&nbs
                 <br />
                 <br />
                 Last login: <?php echo date('D M d H:i:s Y'); ?> from <?php echo $_SERVER['REMOTE_ADDR']; ?><br />
-                You must be from <?php echo geoip_country_name_by_name($_SERVER['REMOTE_ADDR']); ?>
                 <br /><br />
                 Type '<b>help</b>' for command-line help.<br />
                 <div class="consoleresponse" ng-bind-html="containertext"></div>

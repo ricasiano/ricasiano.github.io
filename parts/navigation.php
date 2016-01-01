@@ -9,14 +9,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand maintitle" href="#page-top"><img class="mainlogo" src="./img/bitglip-v2-logo.png" /></a>
+            <a class="navbar-brand maintitle" href="#page-top"><img class="mainlogo" src="./dist/bitglip-v2-logo.png" /></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
+                <li class="page-scroll">
+                    <a href="#page-top">Home</a>
                 </li>
                 <li class="page-scroll">
                     <a href="#myservices">Services</a>
@@ -26,9 +26,6 @@
                 </li>
                 <li class="page-scroll">
                     <a href="#about">About</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="linuxterminal">#LinuxTerminal</a>
                 </li>
             </ul>
         </div>

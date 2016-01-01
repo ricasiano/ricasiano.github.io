@@ -12,7 +12,7 @@
                     <div class="modal-body">
                         <h2>Web Security</h2>
                         <hr class="star-primary">
-                        <img src="img/services-websec.jpg" class="img-responsive img-centered" alt="">
+                        <img src="dist/services-websec.jpg" class="img-responsive img-centered" alt="">
                         <p>One of the most neglected aspects during web development, which could result in site defacement, identity theft and data theft that could have devastating results and severe impact on business.</p>
                         <ul class="list-inline item-details">
                             <li>Skills:

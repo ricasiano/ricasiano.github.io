@@ -12,7 +12,7 @@
                     <div class="modal-body">
                         <h2>Scan with a QR Code Reader</h2>
                         <hr class="star-primary">
-                        <img src="img/qr-bitcoin.png" class="img-responsive img-centered" alt="">
+                        <img src="dist/qr-bitcoin.png" class="img-responsive img-centered" alt="">
                         <p>1K4Ck4weQatdsAakKBuFTwaU5f621dSAT7</p>
                         <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>

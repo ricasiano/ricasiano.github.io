@@ -1,5 +1,5 @@
 <!-- About Section -->
-<section class="aboutme" id="about">
+<section id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -9,15 +9,27 @@
         </div>
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
-                <p>Welcome to my site. This is where I put my portfolios, skills and projects that I have done for the past umteen years. I have one question though, if the bus driver is the last one to leave the bus, how does the bus gets closed? Feel free to hack around!</p>
+                <p>We are here to help you on <b><i>realizing your ideas</i></b> by providing high-quality
+                applications by:
+                <br /><br />
+                <i class="fa fa-check-square-o"></i> applying app security measures<br />
+                <i class="fa fa-check-square-o"></i> improving code quality<br />
+                <i class="fa fa-check-square-o"></i> performing unit tests<br />
+                <i class="fa fa-check-square-o"></i> doing post-deployment checks<br />
+                <i class="fa fa-check-square-o"></i> accomplising app optimizations<br /></p>
             </div>
             <div class="col-lg-4">
-                <p>If you're still reading up to this point, I presume you've got too much <i>time</i> on your hands. I dunno what should I still put at this section. Maybe some nice passage. Everybody likes passages. Here it is, read on... Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>We also follow a <b><i>client-interaction</i></b> approach where we constantly coordinate with our
+                clients by requesting feedbacks and showing the development progress on a daily or a weekly basis,
+                in contrast to giving us the requirements  and <b>waiting for output</b> only on the end of the project.
+               This opens a mutual benefit where we are getting <b>clear requirements</b> and you getting <b>what you
+               really want</b>, thus producing a solution that you have <b><i>envisioned</i></b>.</p>
             </div>
             <div class="col-lg-8 col-lg-offset-2 text-center">
-                <a href="mailto:ricasiano@gmail.com" class="btn btn-lg btn-outline">
-                    <i class="fa fa-envelope-o"></i> Email Me
-                </a>
+                <br />
+                <a href="mailto:inquire@bitglip.com" class="btn btn-lg btn-outline">
+                    <i class="fa fa-envelope"></i> Email Us
+                </a><br />
             </div>
         </div>
     </div>
