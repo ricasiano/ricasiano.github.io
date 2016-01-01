@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /modals/
+Disallow: /parts/
+Disallow: /assets/
+Disallow: /config/
