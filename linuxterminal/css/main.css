@@ -1,7 +1,7 @@
 body {
     background-color: #000;
     color: #18F018;
-    font-family: 'monospace, monospace';
+    font-family: 'Consolas, monospace';
     font-size: 13px;
 }
 a {
@@ -10,7 +10,7 @@ a {
 }
 .title {
     font-size:8px;
-    font-family: 'monospace, monospace';
+    font-family: 'Consolas, monospace';
 }
 .shell {
     background-color: #000;
@@ -20,7 +20,7 @@ a {
     width: 240px;
     padding: 0px;
     margin-top: -4px;
-    font-family: 'monospace, monospace';
+    font-family: 'Consolas, monospace';
     font-size: 13px;
 }
 .note {
