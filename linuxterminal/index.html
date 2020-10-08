@@ -51,7 +51,7 @@ ____________&nbsp;&nbsp;___________________&nbsp;&nbsp;_________&nbsp;&nbsp;&nbs
                 <span class="note"><b>Note:</b></span> Don't want to get through this fancy command-line interface? Click <a href="http://ricasiano.github.io"><b>here</b></a>.
                 <br />
                 <br />
-                Last login: <span id="dateToday"></span> from <span></span><br />
+                Last login: <span id="dateToday"></span> from Earth(probably...)<br />
                 <br /><br />
                 Type '<b>help</b>' for command-line help.<br />
                 <div class="consoleresponse" ng-bind-html="containertext"></div>
@@ -70,7 +70,11 @@ var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
-today = mm + '/' + dd + '/' + yyyy;
+var hh = today.getHours();
+var ii = today.getMinutes();
+var ss = today.getSeconds();
+    #Thu Oct  8 09:26:00 UTC 2020
+today = yyyy + '-' + mm + '-' dd + ' ' + hh + ':' + ii + ':' + ss;
 document.getElementById("dateToday").innerHTML = today;  
 </script>
 </html>
