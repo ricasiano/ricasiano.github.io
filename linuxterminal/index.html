@@ -65,16 +65,14 @@ ____________&nbsp;&nbsp;___________________&nbsp;&nbsp;_________&nbsp;&nbsp;&nbs
         </form>
         </div>
     </body>
-<script>
-var today = new Date();
+<script>var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
 var yyyy = today.getFullYear();
-var hh = today.getHours();
-var ii = today.getMinutes();
-var ss = today.getSeconds();
-    #Thu Oct  8 09:26:00 UTC 2020
-today = yyyy + '-' + mm + '-' dd + ' ' + hh + ':' + ii + ':' + ss;
-document.getElementById("dateToday").innerHTML = today;  
+var hh = String(today.getHours()).padStart(2, '0');
+var ii = String(today.getMinutes()).padStart(2, '0');
+var ss = String(today.getSeconds()).padStart(2, '0');
+var datenow = yyyy + '-' + mm + '-' + dd + ' ' + hh + ':' + ii + ':' + ss;
+document.getElementById('dateToday').innerHTML = datenow;
 </script>
 </html>
