@@ -9,6 +9,13 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-146784595-1');
+    var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+    document.getElementById('dateToday').html(today);
 </script>
         <meta property="og:title" content="Rai Icasiano - Welcome /home/guest" />
         <meta property="og:url" content="http://ricasiano.github.io" />
@@ -51,7 +58,7 @@ ____________&nbsp;&nbsp;___________________&nbsp;&nbsp;_________&nbsp;&nbsp;&nbs
                 <span class="note"><b>Note:</b></span> Don't want to get through this fancy command-line interface? Click <a href="http://ricasiano.github.io"><b>here</b></a>.
                 <br />
                 <br />
-                Last login: <?php echo date('D M d H:i:s Y'); ?> from <?php echo $_SERVER['REMOTE_ADDR']; ?><br />
+                Last login: <span id="dateToday"></span> from <span></span><br />
                 <br /><br />
                 Type '<b>help</b>' for command-line help.<br />
                 <div class="consoleresponse" ng-bind-html="containertext"></div>
