@@ -18,8 +18,8 @@ function shellcat(param) {
         case 'projects.txt':
             containertext += '<div class="oldshell">[guest@razorgank ~] $ cat projects.txt</div>';
             containertext += '<div class="oldshell">Here are my current projects:</div>';
-            containertext += '<div class="oldshell">&nbsp;&nbsp;<b>slaveapi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chikka API integration but on a queue-based workflow</div>';
-            containertext += '<div class="oldshell">&nbsp;&nbsp;<b>pyoki</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just another Raspberry Pi karaoke app</div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;<b>slaveapi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chikka API integration but on a queue-based workflow</div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;<b>pyoki</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just another Raspberry Pi karaoke app</div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;<b>restapi</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A Pragmatic REST API implementation</div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;<b>shutterbox</b>&nbsp;&nbsp;&nbsp;A facebook-like chat interface</div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;<b>gencms</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;A content management system</div>';
