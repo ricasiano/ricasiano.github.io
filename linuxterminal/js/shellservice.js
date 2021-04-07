@@ -84,7 +84,25 @@ function shellservice(param) {
             containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;discontinued</div>';
             containertext += '<div class="oldshell"><b>LINK</b></div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n/a</div>';
-            break;    
+            break;
+        case 'slave-api':
+            containertext += '<div class="oldshell">[guest@razorgank ~] $ service slave-api status</div>';
+            containertext += '<div class="oldshell"><b>NAME</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Slave API</b> - CHIKKA API implementation on a queue-based workflow</div>';
+            containertext += '<div class="oldshell"><b>DESCRIPTION</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Just another REST API implementation but on a queue based workflow. It runs on python, flask, nginx, gunicorn, rabbitmq, celery & mongodb for database(redis if ram wasn\'t that expensive =( ). Test server runs on Vagrant and workers(gunicorn, celery workers) are daemonized via supervisord.</div>';
+            containertext += '<div class="oldshell"><b>LINK</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/ricasiano/slave-api">Github</a></div>';
+            break;
+        case 'pyoki':
+            containertext += '<div class="oldshell">[guest@razorgank ~] $ service pyoki status</div>';
+            containertext += '<div class="oldshell"><b>NAME</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Pyoki</b> - just another raspberry karaoke</div>';
+            containertext += '<div class="oldshell"><b>DESCRIPTION</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Demo: <a href="https://www.youtube.com/watch?v=6hcoO-sGiVU">Youtube</a></div>';
+            containertext += '<div class="oldshell"><b>LINK</b></div>';
+            containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/ricasiano/pyoki">Github</a></div>';
+            break;
         case '':
             containertext += '<div class="oldshell">[guest@razorgank ~] $ service</div>';
             containertext += '<div class="oldshell">Usage: service <b>skill/projectname</b> status</div>';
