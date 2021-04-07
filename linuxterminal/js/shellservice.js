@@ -85,8 +85,8 @@ function shellservice(param) {
             containertext += '<div class="oldshell"><b>LINK</b></div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n/a</div>';
             break;
-        case 'slave-api':
-            containertext += '<div class="oldshell">[guest@razorgank ~] $ service slave-api status</div>';
+        case 'slaveapi':
+            containertext += '<div class="oldshell">[guest@razorgank ~] $ service slaveapi status</div>';
             containertext += '<div class="oldshell"><b>NAME</b></div>';
             containertext += '<div class="oldshell">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Slave API</b> - CHIKKA API implementation on a queue-based workflow</div>';
             containertext += '<div class="oldshell"><b>DESCRIPTION</b></div>';
