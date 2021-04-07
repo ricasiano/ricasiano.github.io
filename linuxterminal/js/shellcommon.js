@@ -21,7 +21,7 @@ function shellver() {
     containertext += '<div class="oldshell">Web Server: Nginx</div>';
     containertext += '<div class="oldshell">PHP Version: 5.5.6</div>';
     containertext += '<div class="oldshell">Server Owner: Rai Icasiano</div>';
-    containertext += '<div class="oldshell">Contact: rai@razorgank.com</div>';
+    containertext += '<div class="oldshell">Contact: ricasiano@gmail.com</div>';
     return containertext;
 }
 
